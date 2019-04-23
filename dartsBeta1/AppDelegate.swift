@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  dartsBeta1
 //
-//  Created by student on 4/8/19.
+//  Created by Max Smith on 4/8/19.
 //  Copyright © 2019 TBE Productions. All rights reserved.
 //
 

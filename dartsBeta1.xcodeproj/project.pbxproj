@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3F000EEF225BFADA00516662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F000EEE225BFADA00516662 /* AppDelegate.swift */; };
-		3F000EF1225BFADA00516662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F000EF0225BFADA00516662 /* ViewController.swift */; };
+		3F000EF1225BFADA00516662 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F000EF0225BFADA00516662 /* Welcome.swift */; };
 		3F000EF4225BFADA00516662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F000EF2225BFADA00516662 /* Main.storyboard */; };
 		3F000EF6225BFADB00516662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F000EF5225BFADB00516662 /* Assets.xcassets */; };
 		3F000EF9225BFADB00516662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F000EF7225BFADB00516662 /* LaunchScreen.storyboard */; };
 		3F000F04225BFADB00516662 /* dartsBeta1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F000F03225BFADB00516662 /* dartsBeta1Tests.swift */; };
 		3F000F0F225BFADB00516662 /* dartsBeta1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F000F0E225BFADB00516662 /* dartsBeta1UITests.swift */; };
+		3F000F1D225BFBD200516662 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F000F1C225BFBD200516662 /* Players.swift */; };
+		3F000F1F225BFC5A00516662 /* SelectGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F000F1E225BFC5A00516662 /* SelectGame.swift */; };
+		3F000F25225C194100516662 /* AddPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F000F24225C194100516662 /* AddPlayers.swift */; };
+		3F6CE9AC225D1D0E007305D0 /* ScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6CE9AB225D1D0E007305D0 /* ScoreGame.swift */; };
+		3F6CE9AE225D54FA007305D0 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6CE9AD225D54FA007305D0 /* GameOver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		3F000EEB225BFADA00516662 /* dartsBeta1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dartsBeta1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F000EEE225BFADA00516662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F000EF0225BFADA00516662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F000EF0225BFADA00516662 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		3F000EF3225BFADA00516662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F000EF5225BFADB00516662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F000EF8225BFADB00516662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		3F000F0A225BFADB00516662 /* dartsBeta1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dartsBeta1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F000F0E225BFADB00516662 /* dartsBeta1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dartsBeta1UITests.swift; sourceTree = "<group>"; };
 		3F000F10225BFADB00516662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F000F1C225BFBD200516662 /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		3F000F1E225BFC5A00516662 /* SelectGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGame.swift; sourceTree = "<group>"; };
+		3F000F24225C194100516662 /* AddPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayers.swift; sourceTree = "<group>"; };
+		3F6CE9AB225D1D0E007305D0 /* ScoreGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGame.swift; sourceTree = "<group>"; };
+		3F6CE9AD225D54FA007305D0 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				3F000EEE225BFADA00516662 /* AppDelegate.swift */,
-				3F000EF0225BFADA00516662 /* ViewController.swift */,
+				3F000F1C225BFBD200516662 /* Players.swift */,
 				3F000EF2225BFADA00516662 /* Main.storyboard */,
+				3F000EF0225BFADA00516662 /* Welcome.swift */,
+				3F000F1E225BFC5A00516662 /* SelectGame.swift */,
+				3F000F24225C194100516662 /* AddPlayers.swift */,
+				3F6CE9AB225D1D0E007305D0 /* ScoreGame.swift */,
+				3F6CE9AD225D54FA007305D0 /* GameOver.swift */,
 				3F000EF5225BFADB00516662 /* Assets.xcassets */,
 				3F000EF7225BFADB00516662 /* LaunchScreen.storyboard */,
 				3F000EFA225BFADB00516662 /* Info.plist */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F000EF1225BFADA00516662 /* ViewController.swift in Sources */,
+				3F6CE9AC225D1D0E007305D0 /* ScoreGame.swift in Sources */,
+				3F000F1D225BFBD200516662 /* Players.swift in Sources */,
+				3F6CE9AE225D54FA007305D0 /* GameOver.swift in Sources */,
+				3F000F1F225BFC5A00516662 /* SelectGame.swift in Sources */,
+				3F000F25225C194100516662 /* AddPlayers.swift in Sources */,
+				3F000EF1225BFADA00516662 /* Welcome.swift in Sources */,
 				3F000EEF225BFADA00516662 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "TBE-Productions.dartsBeta1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "TBE-Productions.dartsBeta1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
